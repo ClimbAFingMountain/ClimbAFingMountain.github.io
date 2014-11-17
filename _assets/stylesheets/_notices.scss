@@ -1,0 +1,32 @@
+// NOTICES
+// --------------------------------------------------
+
+@mixin notice($notice-color) {
+  position: relative;
+  padding: $gutter;
+  @include font-size(14,no);
+  background-color: tint($notice-color,95%);
+  border-radius: 2 * $border-radius
+}
+.notice {
+  @include notice($primary-color);
+}
+.notice-inverse {
+  @include notice($white);
+  color: $text-color;
+  a {
+    color: $text-color;
+  }
+}
+.notice-info {
+  @include notice($info-color);
+}
+.notice-warning {
+  @include notice($warning-color);
+}
+.notice-success {
+  @include notice($success-color);
+}
+.notice-danger {
+  @include notice($danger-color);
+}

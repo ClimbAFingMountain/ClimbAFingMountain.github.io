@@ -1,35 +1,62 @@
 # Site wide configuration
 
-title:
-description:
-logo: # 120x120 px default image used for Twitter summary card
-teaser: # 400x250 px default teaser image used in image archive grid
-locale:
-url:
+title: CAFM
+description: "Climb a Fuckin' Mountain"
+logo: site-logo.png
+teaser: default-teaser.png
+locale: en_US
+baseurl: "/"
+url: "http://climbafingmountain.github.io"
+
 
 # Jekyll configuration
 
-sass:
-    sass_dir: _sass
-    style: compressed
 permalink: /:categories/:title/
+lsi: true
 markdown: kramdown
+kramdown:
+  toc_levels: 1..2
 highlighter: pygments
 gems:
   - jekyll-sitemap
+include: [".htaccess"]
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "node_modules", "Gruntfile.js", "package.json", ".jekyll-assets-cache"]  
+
+
+# Plugin: jekyll-assets
+
+assets:
+  sources:
+    - _assets/javascripts
+    - _assets/stylesheets
+  js_compressor: uglifier
+  css_compressor: sass
+  cachebust: hard
+  cache: true
+  debug: false
+  version: 1
 
 
 # Site owner
+
 owner:
   name:
-  email:
-  twitter:
-  google:
-    ad-client: 
-    ad-slot: 
-  bio: 
+  twitter: 
+  facebook: 
+  instagram: 
+  tumblr: 
+  #google:
+   # ad-client: ca-pub-7328585512091257
+    #ad-slot: 3049671934
+    #analytics: UA-2011187-1
+    #plus: https://plus.google.com/+MichaelRoseDesign/posts
+    #verify: geapSKtvpBNDSfXVmF09E9CnaHGglbO61r4XgLZtEmo
+  #bing:   
+   # verify: D81F4C18A6CB3018F64D7C827D953DFD
+  #alexa:
+   # verify: Y5DYjZ4VWlrQzBP5kcQJeOKLNas
+  #yandex:
+   # verify: 55a5419baf76a498
+  bio: "Climb a Fuckin' Mountain"
   avatar: bio-photo.jpg # 160x160 px image for author byline
-disqus-shortname:
-
-
-exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
+#disqus-shortname: mmistakes
