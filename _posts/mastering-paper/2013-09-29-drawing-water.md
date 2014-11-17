@@ -12,7 +12,7 @@ tags: [Paper by 53, tutorial, drawing, painting, iPad, water, waves]
 comments: true
 ---
 
-Hopefully parts 2 and 3 of my [Mastering Paper by 53 Guide]({{ site.url }}/mastering-paper/) demonstrated just how easy drawing trees and skies on an iPad can be. Building on the techniques in those tutorials, I'm going to walk you through my process for drawing water and waves --- perfect for beach and coastline illustrations! If you enjoyed how I draw clouds, the following should be familiar territory since I use similar techniques.
+Hopefully parts 2 and 3 of emonstrated just how easy drawing trees and skies on an iPad can be. Building on the techniques in those tutorials, I'm going to walk you through my process for drawing water and waves --- perfect for beach and coastline illustrations! If you enjoyed how I draw clouds, the following should be familiar territory since I use similar techniques.
 
 {% include toc.html %}
 
@@ -27,8 +27,6 @@ When choosing a color for the water, I like to mix it dull and gray by knocking 
 
 <i class="fa fa-star"></i> **ProTip:** Don't make the mix too dark. You'll achieve better results by applying multiple lighter coats instead of going at it with one. Mix the desired color[^mixer] you'd like to end up with and then lower the saturation and luminosity about 25% each.
 {: .notice}
-
-[^mixer]: In Part 1 of my Mastering Paper Guide I explain [how to use the color mixer]({{ site.url }}{% post_url /mastering-paper/2013-07-31-introduction-tool-guide %}#color-mixer) and what the various sliders mean and do.
 
 Much like drawing skies, you can choose to mark a horizon line in pencil to act as a guide --- or go commando if you're confident in your watercolor skills. If you decide to draw the horizon, remember to keep it light so it doesn't bleed through the watercolor we'll be applying next.
 
@@ -94,7 +92,7 @@ Starting at the top of the water lightly sketch strokes from left to right. The 
 	<figcaption>Use a blue-gray base color to draw in the smaller wave shapes.</figcaption>
 </figure>
 
-A [Pogo Connect Smart Pen]({{ site.url }}{% post_url /articles/2013-07-08-pogo-connect-smart-pen %}) works great for this step. It allows you to draw lightly and avoid going too heavy in an area. If you're finger painting or using a normal capacitive stylus, remember to move quickly with your pencil strokes --- the quicker you draw the lighter the mark.
+
 
 ### White Wave Crests and Foam
 
@@ -133,16 +131,6 @@ Boom! And we're done. Combined with a blue sky from my previous guide and you'll
 ## Variations on a Theme
 
 Using all of these techniques I was able to create a variety of backdrops for the portraits in my [PaperFaces Project]({{ site.url }}/paperfaces/). Below are a few finished waterscapes to show what is possible just by varying the color and composition.
-
-<ul class="th-grid">
-  <li><a href="{{ site.url }}{% post_url /paperfaces/2013-09-03-andrewbrewer-portrait %}"><img src="{{ site.url }}/images/paperfaces-andrewbrewer-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{ site.url }}{% post_url /paperfaces/2013-07-29-sbrolins-portrait %}"><img src="{{ site.url }}/images/paperfaces-sbrolins-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{{ site.url }}{% post_url /paperfaces/2013-05-31-bradersk8r-portrait %}"><img src="{{ site.url }}/images/paperfaces-bradersk8r-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{ site.url }}{% post_url /paperfaces/2013-05-08-iron-man-portrait %}"><img src="{{ site.url }}/images/paperfaces-iron-man-3-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{ site.url }}{% post_url /paperfaces/2013-03-15-agentkyle-portrait %}"><img src="{{ site.url }}/images/paperfaces-agentkyle-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{ site.url }}{% post_url /paperfaces/2013-01-25-jamesonroot-portrait %}"><img src="{{ site.url }}/images/paperfaces-jamesonroot-twitter-150.jpg" alt="thumb" /></a></li>
-  <li><a href="{{ site.url }}{% post_url /paperfaces/2013-01-10-aaronrustad-portrait %}"><img src="{{ site.url }}/images/paperfaces-aaronrustad-twitter-150.jpg" alt="thumb" /></a></li>
-</ul>
 
 ## Watch for the Next Tutorial
 {:.no_toc}

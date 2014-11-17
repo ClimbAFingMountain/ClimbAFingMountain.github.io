@@ -39,12 +39,6 @@ Speaking of Bluetooth styli, I now use a [Pogo Connect][pogo-stylus] about 99% o
 | [*ZEN 3 in 1*][zen-stylus] | Precision disc tip dead on arrival. Rubber nib still going strong.
 | [*Universal Touch Screen Pen*][cheap-stylus] | Cheap, small, light, and pretty crappy. Comes in a 3 pack that I have as a backup if I ever lose my other styli.
 
-[alupen-stylus]: http://www.amazon.com/gp/product/B0042U9AT6/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0042U9AT6&linkCode=as2&tag=mademist-20&linkId=RWJ5A43BF46FLB36
-[lunatik-stylus]: http://www.amazon.com/gp/product/B00821TR7G/ref=as_li_ss_tl?ie=UTF8&tag=mademist-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B00821TR7G
-[pogo-stylus]: {{ site.url}}{% post_url /articles/2013-07-08-pogo-connect-smart-pen %}
-[pencil-stylus]: {{ site.url }}{% post_url /mastering-paper/2013-12-11-pencil-53-review %}
-[zen-stylus]: https://www.kickstarter.com/projects/zenwriting/zen-next-generation-of-modern-writing-instrument
-[cheap-stylus]: http://www.amazon.com/gp/product/B00575TN42/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00575TN42&linkCode=as2&tag=mademist-20
 
 ## Which iPad Do You Have?
 
@@ -58,21 +52,17 @@ The small 16GB of memory my iPad came with is almost full which is probably goin
 
 **Longer answer:** I dual majored in graphic design and illustration at the [*Rochester Institute of Technology*](http://www.rit.edu/) with a minor in fine art, so I had a lot of exposure to drawing as part of my curriculum. I learned the fundamentals of capturing 3-dimensional forms from hours of drawing live models with charcoal on large pads of newsprint.
 
-After graduating college I got really rusty at drawing because I stopped doing it for about 13 years. To get my skills back in shape I started a [365 project]({{ site.url }}{% post_url /articles/2014-08-29-paperfaces-retrospective %}) two years ago after discovering the Paper app.
+After graduating college I got really rusty at drawing because I stopped doing it for about 13 years. To get my skills b
 
 ---
 
 ## How Do You Draw Those Square Frames?
 
-I [use whatever straight edge]({{ site.url }}{% post_url /mastering-paper/2014-07-06-grid-method %}) I have laying around: rule, book, piece of cardboard, notepad, etc. I have a few journal pages of "frames" that I duplicate[^duplicate-page] in Paper anytime I want to use them. Saves me the step of having to redraw the same thing.
 
 [^duplicate-page]: To copy a page pinch the screen to zoom out and then press and hold on the <i class="fa fa-plus-circle"></i> plus button until a duplicate button appears. The tap that.
 
 ---
 
-## How Do You Paint Gradients So Smooth with the Watercolor Brush?
-
-By painting a bunch of layers of watercolor on top of each other. Speed and pressure play an important role in how clean of a tone you end up with. My [Paper Basics guide]({{ site.url }}{% post_url /mastering-paper/2014-02-09-basics %}) explains all of the nuances of the watercolor brush and several techniques for using it.
 
 ---
 

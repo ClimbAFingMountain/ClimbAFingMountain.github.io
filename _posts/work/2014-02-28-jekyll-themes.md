@@ -94,10 +94,6 @@ A responsive Jekyll blog theme designed to give your site a modern and somewhat 
 * Animated main menu
 * Built in support for Sass and data files (requires Jekyll 2.x)
 
-<div markdown="0">
-	<a href="https://mmistakes.github.io/hpstr-jekyll-theme/" class="btn">Demo the Theme</a>
-	<a href="{{ site.url }}{% post_url /articles/2013-08-26-hpstr-jekyll-theme %}" class="btn">Learn More</a>
-</div>
 
 ---
 
