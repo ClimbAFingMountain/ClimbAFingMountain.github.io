@@ -119,7 +119,7 @@
 
 
     marker = L.marker([37.6894,-119.199]).addTo(map);
-    marker.bindPopup("<b>Mount Ritter</b><br><b>Year: </b>2017<b><br>Elevation: </b>13,149'<br><b>Merch: </b>T-Shirt (2018), Socks (2024)");
+    marker.bindPopup("<b>Mount Ritter</b><br><b>Year: </b>2017<b><br>Elevation: </b>13,149'<br><b>Merch: </b>T-Shirt");
     let url2017 = 'https://raw.githubusercontent.com/ClimbAFingMountain/MappingCAFM/main/mappingFiles/CAFM2017MountRitter.geojson';
     const response2017 = fetch(url2017).then(response2017 => response2017.json()).then(response2017 => {
       L.geoJson(response2017,{color:'red'}).addTo(map).bindPopup('Mount Ritter 2017');
@@ -127,7 +127,7 @@
 
 
     marker = L.marker([37.7395,-119.2717]).addTo(map);
-    marker.bindPopup("<b>Mount Lyell</b><br><b>Year: </b>2018<b><br>Elevation: </b>13,120'<br><b>Merch: </b>Mtn Beanies");
+    marker.bindPopup("<b>Mount Lyell</b><br><b>Year: </b>2018<b><br>Elevation: </b>13,120'<br><b>Merch: </b>Mtn Beanies (2018), Socks (2024)");
     let url2018 = 'https://raw.githubusercontent.com/ClimbAFingMountain/MappingCAFM/main/mappingFiles/CAFM2018MountLyell.geojson';
     const response2018 = fetch(url2018).then(response2018 => response2018.json()).then(response2018 => {
       L.geoJson(response2018,{color:'red'}).addTo(map).bindPopup('Mount Lyell 2018');
