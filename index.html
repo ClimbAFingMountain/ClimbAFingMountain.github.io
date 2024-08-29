@@ -48,7 +48,7 @@
 
     marker = L.marker([37.8816,-121.9142]).addTo(map);
     marker.bindPopup("<b>Mount Diablo/Baldy Hill</b><br><b>Year: </b>2008<b><br>Elevation: </b>3,849'<br><b>Merch: </b>Sub hour Diablo shirt");
-    let url2008 = 'https://raw.githubusercontent.com/ClimbAFingMountain/MappingCAFM/main/mappingFiles/CAFM2008MountDiablo/BaldyHill.geojson';
+    let url2008 = 'https://raw.githubusercontent.com/ClimbAFingMountain/MappingCAFM/main/mappingFiles/CAFM2008MountDiablo.geojson';
     const response2008 = fetch(url2008).then(response2008 => response2008.json()).then(response2008 => {
       L.geoJson(response2008,{color:'red'}).addTo(map).bindPopup('Mount Diablo/Baldy Hill 2008');
     })
