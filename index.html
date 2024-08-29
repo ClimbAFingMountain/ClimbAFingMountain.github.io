@@ -95,7 +95,7 @@
 
 
     marker = L.marker([46.2024,-121.491]).addTo(map);
-    marker.bindPopup("<b>Mount Adams</b><br><b>Year: </b>2014<b><br>Elevation: </b>12,281'<br><b>Merch: </b>nan");
+    marker.bindPopup("<b>Mount Adams</b><br><b>Year: </b>2014<b><br>Elevation: </b>12,281'<br><b>Merch: </b>Portland");
     let url2014 = 'https://raw.githubusercontent.com/ClimbAFingMountain/ClimbAFingMountain.github.io/main/mappingData/CAFM2014MountAdams.geojson';
     const response2014 = fetch(url2014).then(response2014 => response2014.json()).then(response2014 => {
       L.geoJson(response2014,{color:'red'}).addTo(map).bindPopup('Mount Adams 2014');
