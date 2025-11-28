@@ -181,8 +181,8 @@
       L.geoJson(response2024,{color:'purple'}).addTo(map).bindPopup('Mount Lyell 2024');
     })
 
-    marker = L.marker([38.6694 -122.6333]).addTo(map);
-    marker.bindPopup("<b>Mt St Helena</b><br><b>Year: </b>2023<b><br>Elevation: </b>9,672'<br><b>Merch: </b>Wine Decanters");
+    marker = L.marker([38.6694, -122.6333]).addTo(map);
+    marker.bindPopup("<b>Mt St Helena</b><br><b>Year: </b>2025<b><br>Elevation: </b>4,341'<br><b>Merch: </b>Wine Decanters");
     let url2025 = 'https://raw.githubusercontent.com/ClimbAFingMountain/ClimbAFingMountain.github.io/main/mappingData/CAFM2025MtStHelena.geojson';
     const response2025 = fetch(url2025).then(response2025 => response2025.json()).then(response2025 => {
       L.geoJson(response2025,{color:'red'}).addTo(map).bindPopup('Mt St Helena 2025');
